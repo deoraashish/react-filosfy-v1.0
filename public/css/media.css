@@ -1,0 +1,46 @@
+@media only screen and (max-width:1120px) {
+    
+}
+@media only screen and (max-width:908px) {
+    .number {
+        display: none;
+    }
+}
+@media only screen and (max-width:768px) {
+    .button {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    .read {
+        width: 30px;
+    }
+    .ans-structure {
+        flex-direction: column;
+        align-items: center;
+    }
+    .ans-img {
+        align-items: center;
+        width: 240px;
+        margin: 10px 0;
+    }
+    .t-details {
+        margin: 0 0 0 10px;
+    }
+    .t-details li .d-flex {
+        flex-direction: column;
+    }
+    .language-btn {
+        margin: 7px 0;
+    }
+}
+@media only screen and (max-width:500px) {
+    .t-desc {
+        width: 290px;
+    }
+    .devider {
+        width: 290px;
+    }
+    .t-image {
+        width: 290px;
+    }
+}
