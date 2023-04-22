@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL:"https://tender-twill-bass.cyclic.app",
+    baseURL:"http://3.110.197.170:5001",
     headers:{
         'Accept': 'application/json',
         'Content-Type': 'application/json'
